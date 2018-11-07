@@ -1,0 +1,10 @@
+# log files #
+###################
+*.log
+*.gz
+
+# build files #
+build/bundle.js
+
+# node modules #
+node_modules

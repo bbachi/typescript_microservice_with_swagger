@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <style>
+
+        body{
+            background-color:#ffffff;
+            padding:0px 3%;
+        }
+        .header{
+            width:100%;
+            height:200px;
+            border-bottom: 2px solid greenyellow;
+            margin-bottom: 5%;
+        }
+
+        .header h1{
+            text-align: center;
+            padding-top:50px;
+            color:violet;
+        }
+
+        .nav{
+            margin-top: 75px;
+            margin-left: 20%;
+        }
+
+        .nav a{
+            padding: 0% 3%;
+            text-decoration: none;
+            color:black;
+            font-size: 30px;
+        }
+
+        .nav a:hover{
+           color:greenyellow;
+        }
+
+        .keyssec{
+            border: 1px solid gray;
+            padding:3%;
+            background-color: #ffffff;
+        }
+
+        #keyinput{
+            width: 50%;
+            height: 60px;
+            border-color: yellowgreen;
+            margin-bottom:3%;
+        }
+
+        #keyinbtn {
+            margin-left: 10%;
+            width:20%;
+            height:60px;
+            background-color: green;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+         #keyinbtn:hover{
+             background-color: yellowgreen;
+         }
+
+         .keyoutput{
+             border:1px solid yellowgreen;
+             padding:2%;
+             background-color: gray;
+         }
+
+         .keytxt{
+             font-size: 30px;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             color:violet;
+         }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>Content API</h1>
+            <div class="nav">
+                <a href="#">Keys</a>
+                <a href="#">Components</a>
+            </div>
+        </div>
+
+        <div class="keyssec">
+            <h1>Please enter key below:</h1>
+            <form>
+                <div class="keyinput">
+                    <input type="text" id="keyinput" name="key" value=""/>
+                    <input type="button" id="keyinbtn" name="keyinbtn" value="submit"/>
+                </div>
+                <h2>Output:</h2>
+                <div class="keyoutput">
+                    <p class="keytxt">This is key output</p>
+                </div>
+            </form>
+        </div>
+        
+    </body>
+</html>
